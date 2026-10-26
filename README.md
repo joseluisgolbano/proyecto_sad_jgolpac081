@@ -85,9 +85,10 @@ iptables -t nat -A POSTROUTING -s 172.3.44.0/24 -o eth0 -j MASQUERADE
 ## Comprobaciones del proyecto
 
 ### Máquinas creadas
-**Máquinas creadas en Virtual Box**
+#### Máquinas creadas en Virtual Box
 ![vbox maquinas creadas](/images/vbox_maquinas.PNG)  
-**Status con vagrant**
+
+#### Status con vagrant
 ![vagrant status](/images/1.1.PNG)
 ### Ping desde la máquina 'empleado'
 ![ping](/images/6.1.PNG)
